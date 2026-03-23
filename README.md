@@ -25,10 +25,14 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Program:
 
-'''Program to solve a matrix using Gaussian elimination without partial pivoting.
+Program to solve a matrix using Gaussian elimination without partial pivoting.
+
 Developed by: Subashini K
+
 RegisterNumber: 212225240160
-'''
+
+
+```
 
 import numpy as np
 
@@ -77,6 +81,7 @@ for i in range(n):
 
   print("X%d = %.2f"%(i,x[i]), end=" ")
 
+```
 
 
 ## Output:
